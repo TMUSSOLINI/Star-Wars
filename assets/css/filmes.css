@@ -1,0 +1,73 @@
+.lista__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista__item{
+    padding: 1em;
+    list-style: none;
+}
+
+.lista__link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--branco);
+}
+
+.lista__link:hover{
+    color: var(--ambar);
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.titulo__container{
+    text-align: center;
+}
+
+.titulo__catalogo{
+    border: 1px solid;
+    border-radius: 18px;
+    padding: 0.2em;
+    color: var(--ambar);
+    background-color:var(--preto);
+    width: 30vw;
+}
+
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    gap: 30px;
+    margin-bottom: 35px;
+}
+
+.card__layout{
+    color: var(--ambar);
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background: rgba( 255, 255, 255, 0.29 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center;
+}
+.card__layout div{
+    width: 90%;
+}
+.poster__card{
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+}

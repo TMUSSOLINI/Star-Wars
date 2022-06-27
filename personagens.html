@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <title>Star Wars - Personagens</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/darth.svg">
+</head>
+<body>
+    <main>
+        <header>
+            <div class="nav__container">
+                <img class="nav__imagem" src="assets/img/Star_Wars_logo.webp" alt="Logo Star Wars">
+                <ul class="lista__container">
+                    <li class="lista__item">
+                        <a href="index.html" class="lista__link">Home</a>
+                    </li>
+                    <li class="lista__item">
+                        <a href="filmes.html" class="lista__link">Filmes</a>
+                    </li>
+                    <li class="lista__item">
+                        <a href="informacoes.html" class="lista__link">Planetas</a>
+                    </li>
+                </ul>
+                <h1>API Star Wars</h1>
+            </div>
+        </header>
+
+        <section>
+            <div class="container">
+                <div class="pesquisa">
+                    <form class="pesquisa__formulario">
+                        <label for="personagem">Escolha um personagem:</label>
+                        <input type="text" name="" id="inputPersonagem" placeholder="Digite o nome do personagem" required>
+                        <button id="pesquisa__btn">Ver</button>
+                    </form>
+                </div>
+                <div class="card__layout" >
+                    <div class="card__informacoes">
+                        <h3>Nome: </h3>
+                        <span id="nome">...</span>
+                        <p>Data de nascimento:</p>
+                        <span id="data">...</span>
+                        <p>Sexo:</p>
+                        <span id="sexo">...</span>
+                        <p>Altura:</p>
+                        <span id="altura">...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="assets/js/Personagem.js"></script>
+</body>
+</html>
